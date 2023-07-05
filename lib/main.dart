@@ -90,7 +90,7 @@ class _ScoreHomeState extends State<ScoreHome> {
                 ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.blue),
+                        MaterialStateProperty.all<Color>(const Color.fromARGB(255, 7, 60, 104)),
                   ),
                   onPressed: increaseScore,
                   child: const Text("Increase"),
